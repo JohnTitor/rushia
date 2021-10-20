@@ -1,0 +1,16 @@
+[package]
+name = "ajimu"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+description = "A binary crate "
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egg-mode = "0.16"
+rand = "0.8.4"
+tokio = { version = "1.0", features = ["full"] }
+tracing = "0.1.29"
+tracing-subscriber = "0.2.25"

@@ -1,8 +1,1 @@
-# rushia
-
-## Testing links
-
-- [neet.club]
-
-<!-- comments -->
-[neet.club]: https://neet.club
+# Stuff related to Rust
