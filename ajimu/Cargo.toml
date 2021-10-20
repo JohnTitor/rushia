@@ -1,10 +1,10 @@
 [package]
 name = "ajimu"
 version = "0.1.0"
-edition = "2021"
+edition = "2018"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
-description = "A binary crate "
+description = "Change a Twitter display name to a randomly chosen one from the skills of Ajimu Najimi."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
