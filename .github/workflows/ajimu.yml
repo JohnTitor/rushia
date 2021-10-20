@@ -21,3 +21,8 @@ jobs:
 
       - name: cargo run
         run: cargo run -p ajimu
+        env:
+          CONSUMER_KEY: ${{ secrets.CONSUMER_KEY }}
+          CONSUMER_SECRET: ${{ secrets.CONSUMER_SECRET }}
+          ACCESS_KEY: ${{ secrets.ACCESS_KEY }}
+          ACCESS_SECRET: ${{ secrets.ACCESS_SECRET }}
