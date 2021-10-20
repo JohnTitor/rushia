@@ -1,9 +1,9 @@
-name: Continuous Integration
+name: Ajimu
 
 on:
   schedule:
-    # Run at 00:00 UTC every 1st of the month
-    - cron: '00 00 01 * *'
+    # Run everyday
+    - cron: '00 15 * * *'
   # Allow manually starting the workflow
   workflow_dispatch:
 
