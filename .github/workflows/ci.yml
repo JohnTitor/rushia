@@ -15,8 +15,10 @@ jobs:
 
       - name: Configure rustup
         run: |
-          rustup set profile minimal
           rustup override set stable
+          rustup update stable
+
+      - uses: Swatinem/rust-cache@v1.3.0
 
       - name: cargo check
         run: cargo check --workspace
